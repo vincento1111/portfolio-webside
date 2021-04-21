@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "portfolio-webside": {
+      "hosting": {
+        "vincent-webside": [
+          "portfolio-webside"
+        ]
+      }
+    }
+  }
+}

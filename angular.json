@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "dbfa971e-6d69-4ef3-a139-f113af685c9a"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -120,6 +123,10 @@
               "devServerTarget": "vincent-webside:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
     }
